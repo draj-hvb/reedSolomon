@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include "reed-solomon.h"
+#include "field.h"
+#include "polynomial.h"
 
 // coeff must be of size nroots + 1
 // e.g. 2 roots (x + alpha)(x + alpha^2) yields a poly with 3 terms x^2 + g0*x + g1
